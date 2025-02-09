@@ -1,0 +1,12 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Product
+<div class="card text-center">
+    <h1>Product Id: @Model.Id</h1>
+    <h1>Product name: @Model.Name</h1>
+    <h1>
+    <span>Company Id: @Model.Company.Id</span>
+    <span>Company Name: @Model.Company.Name</span>
+    </h1>
+</div>
